@@ -1,1 +1,1 @@
-#run.batを実行
+run.batを実行
