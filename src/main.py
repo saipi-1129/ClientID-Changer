@@ -1,9 +1,7 @@
 import os
 
-# ユーザーのホームディレクトリのパスを取得
 user_profile = os.getenv('USERPROFILE')
 
-# 対象ファイルへのパスを動的に設定
 file_path = os.path.join(user_profile, r'AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe\clientid.txt')
 
 def modify_clientid_file(new_content):
